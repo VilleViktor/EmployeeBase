@@ -42,11 +42,9 @@ det för andra verksamheter också.
                 
   - Projekt med "sambehörighetsnummer" (eller va fan det hette). Som kopplas till kund som registrerar det. 
               
-  *     En enkel lösning för att kunna logga sin jobb-tid vid en anläggning. 
-      
+  * En enkel lösning för att kunna logga sin jobb-tid vid en anläggning. 
     - Bästa lösning vore att göra en VÄLDIGT enkel mobilapp. Tex en app där man loggar in 1 gång med sitt unika- anställningsID och 
         lösenord. Där kommer den Anställda kunna registrera sin ankomst vid en anläggning enkelt.
-        
     - Förslag två. Att man bygger en aparat som kan läsa av( eller köper en färdig variant ) som kopplas till en viss anläggning. 
         Varje anställd kommer kunna ha ett kort som registrerar ankomst och hej då. Detta är dock mer lämpad för långtidsprojekt,
         och mindre byggföretag som har flertalet projekt per vecka är det inte särskilt "enkelt". 
