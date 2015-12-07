@@ -31,30 +31,33 @@ det för andra verksamheter också.
       Samt, val av databas. MySQL eller MongoDB? 
       Databasinnehåll:
       
-          * Kunddatabas - organiserar kunderna. En kund är den som kommer vara huvudansvarig för en personalliggare. 
-            En kund kommer vara tex chief på företaget som kommer ha X- antal anställda som ska kunnas registreras på
-            portalen för att använda den digitala personalliggaren. 
+    - Kunddatabas - organiserar kunderna. En kund är den som kommer vara huvudansvarig för en personalliggare. 
+      En kund kommer vara tex chief på företaget som kommer ha X- antal anställda som ska kunnas registreras på
+      portalen för att använda den digitala personalliggaren. 
           
-              - "Anställda" - som har egna konton som är kopplade till en specifik kund. 
+    - "Anställda" - som har egna konton som är kopplade till en specifik kund. 
               
-              - personalliggare per kund. Där man ska kunna specificiera saker och ting via ett dashboard eller
+    - personalliggare per kund. Där man ska kunna specificiera saker och ting via ett dashboard eller
                 användarportal eller liknande. 
                 
-              - Projekt med "sambehörighetsnummer" (eller va fan det hette). Som kopplas till kund som registrerar det. 
+    - Projekt med "sambehörighetsnummer" (eller va fan det hette). Som kopplas till kund som registrerar det. 
               
-*     En enkel lösning för att kunna logga sin jobb-tid vid en anläggning. 
+  *     En enkel lösning för att kunna logga sin jobb-tid vid en anläggning. 
       
-      - Bästa lösning vore att göra en VÄLDIGT enkel mobilapp. Tex en app där man loggar in 1 gång med sitt unika- anställningsID och 
+    - Bästa lösning vore att göra en VÄLDIGT enkel mobilapp. Tex en app där man loggar in 1 gång med sitt unika- anställningsID och 
         lösenord. Där kommer den Anställda kunna registrera sin ankomst vid en anläggning enkelt.
         
-      - Förslag två. Att man bygger en aparat som kan läsa av( eller köper en färdig variant ) som kopplas till en viss anläggning. 
+    - Förslag två. Att man bygger en aparat som kan läsa av( eller köper en färdig variant ) som kopplas till en viss anläggning. 
         Varje anställd kommer kunna ha ett kort som registrerar ankomst och hej då. Detta är dock mer lämpad för långtidsprojekt,
         och mindre byggföretag som har flertalet projekt per vecka är det inte särskilt "enkelt". 
         
         
-*     Dashboard med information med lösanhemt och anställdas prestanda per projekt. För kunna följa hur arbetet pågår på alla anläggningar.
-
-*     Viktigast av allt är att göra hanteringen så enkel som möjlig!
+  *     Dashboard med information med lösanhemt och anställdas prestanda per projekt. För kunna följa hur arbetet pågår på alla                anläggningar.
+  
+  *     Enkel kunna extrahera information från databasen i XML-format angivet av skattemyndigheten. (Finns sjukt bra node-packet för detta)     
+  
+    
+  *     Viktigast av allt är att göra hanteringen så enkel som möjlig!
 
 
 
